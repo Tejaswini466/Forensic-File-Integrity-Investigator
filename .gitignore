@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Generated forensic files
+baseline.pkl
+*.pkl
+
+# Reports
+Forensic_Report.xlsx
+reports/*.xlsx
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
