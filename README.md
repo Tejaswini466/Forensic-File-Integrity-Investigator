@@ -56,7 +56,7 @@ Generates structured forensic reports using Pandas:
 - Exports reports to Excel format
 
 Generated report:
-![Screenshot of sample report](<Screenshot (526).png>)
+![Screenshot of sample report](sample_report.png)
 
 
 ### 5. Baseline Persistence
@@ -72,26 +72,28 @@ Future scans compare against this baseline to identify:
 
 ---
 
-## 6. Project Architecture
+## Project Architecture
 
+```text
 Forensic-File-Integrity-Investigator
-│
-├── main.py # Program entry point
-│
-├── scanner.py # File scanning and metadata collection
-│
-├── analyzer.py # Statistical anomaly detection
-│
-├── reporter.py # Report generation using Pandas
-│
-├── utils.py # Hashing and helper functions
-│
-├── baselines/ # Stored forensic snapshots
-│
-├── reports/ # Generated reports
-│
-└── requirements.txt # Required Python packages
 
+│
+├── main.py              # Program entry point
+│
+├── scanner.py           # File scanning and metadata collection
+│
+├── analyzer.py          # Statistical anomaly detection
+│
+├── reporter.py          # Report generation using Pandas
+│
+├── utils.py             # Hashing and helper functions
+│
+├── baselines/           # Stored forensic snapshots
+│
+├── reports/             # Generated reports
+│
+└── requirements.txt     # Required Python packages
+```
 
 ## Technologies Used
 
